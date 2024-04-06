@@ -1,8 +1,0 @@
-df['points'] = df.apply(lambda x: x['V']*7 + x['E']*0 + x['D']*-4 + x['GOL']*7 + x['ASS']*4 + x['STG']*2 + x['GC']*-10 + x['AMA']*-4 + x['AZUL']*-8 + x['VER']*-16 + x['PP']*-10 + + x['GS']*0 + + x['DD']*0 + + x['DP']*0 if x['POSIÇÃO'] == 'ATA' else 0, axis=1)
-
-x['V']*7 + x['E']*0 + x['D']*-4 + x['GOL']*8.5 + x['ASS']*5 + x['STG']*2.5 + x['GC']*-10 + x['AMA']*-4 + x['AZUL']*-8 + x['VER']*-16 + x['PP']*-10 + + x['GS']*0 + + x['DD']*0 + + x['DP']*0 if x['POSIÇÃO'] == 'MEI'
-
-x['V']*7 + x['E']*0 + x['D']*-4 + x['GOL']*10 + x['ASS']*6 + x['STG']*3 + x['GC']*-10 + x['AMA']*-4 + x['AZUL']*-8 + x['VER']*-16 + x['PP']*-10 + + x['GS']*0 + + x['DD']*0 + + x['DP']*0 if x['POSIÇÃO'] == 'ZAG'
-
-x['V']*6 + x['E']*0 + x['D']*-3 + x['GOL']*16 + x['ASS']*10 + x['STG']*4 + x['GC']*-10 + x['AMA']*-4 + x['AZUL']*-8 + x['VER']*-16 + x['PP']*-10 + + x['GS']*-3 + + x['DD']*5 + + x['DP']*20 if x['POSIÇÃO'] == 'GK'
-
